@@ -1,0 +1,75 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Leo Studio Privacy Policy</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;800&family=Nunito+Sans:wght@400;600;700&display=swap">
+<style>
+/* Layout: one calm reading column, a pastel nursery header band, sections as plain headed blocks */
+:root {
+  --bg: #FFF8EE; --surface: #FDEFE0; --fg: #3F3029; --muted: #7A675B; --accent: #D9734E; --line: #EBD7C3;
+  --display: "Baloo 2", "Trebuchet MS", system-ui, sans-serif;
+  --body: "Nunito Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #1F1915; --surface: #2A221D; --fg: #F3E6DA; --muted: #BCA898; --accent: #F0956F; --line: #3D322A; color-scheme: dark } }
+:root[data-theme="dark"] { --bg: #1F1915; --surface: #2A221D; --fg: #F3E6DA; --muted: #BCA898; --accent: #F0956F; --line: #3D322A; color-scheme: dark }
+body { background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 17px; line-height: 1.65; }
+.wrap { max-width: 720px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+header { background: var(--surface); border-bottom: 1px solid var(--line); }
+header .wrap { padding-block: 40px 28px; }
+.brand { font-family: var(--display); font-weight: 800; color: var(--accent); letter-spacing: .04em; text-transform: uppercase; font-size: 14px; }
+h1 { font-family: var(--display); font-weight: 800; font-size: clamp(32px, 6vw, 44px); line-height: 1.1; margin: 6px 0 8px; text-wrap: balance; }
+.meta { color: var(--muted); font-size: 15px; margin: 0; }
+main .wrap { padding-block: 12px 56px; }
+h2 { font-family: var(--display); font-weight: 600; font-size: 24px; margin: 36px 0 6px; }
+p, li { max-width: 65ch; }
+ul { padding-left: 1.2em; }
+li + li { margin-top: 4px; }
+code { font-size: .92em; background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 1px 6px; }
+.fr { margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--line); color: var(--muted); font-size: 15px; }
+a { color: var(--accent); }
+</style>
+</head><body style="margin:0">
+
+<header><div class="wrap">
+  <div class="brand">Leo Studio</div>
+  <h1>Privacy Policy</h1>
+  <p class="meta">Effective 10 November 2026</p>
+</div></header>
+
+<main><div class="wrap">
+  <p>Leo Studio is a personal tool run by one creator on their own computer. It produces short animated stories ("Les petites aventures de Léo") and sends them to that creator's own TikTok drafts, where the creator reviews and publishes them by hand. It has no other users and no public sign-up.</p>
+
+  <h2>What data the app uses</h2>
+  <ul>
+    <li><strong>TikTok authorization tokens</strong> (access token, refresh token) and the account's <code>open_id</code>, received when the creator logs in with TikTok.</li>
+    <li><strong>Basic profile info</strong> (scope <code>user.info.basic</code>), used only to confirm which account is connected.</li>
+    <li><strong>The creator's own video list and public counts</strong> (scope <code>video.list</code>: views, likes, comments, shares), used to see which of the creator's own videos performed best.</li>
+    <li><strong>Video files the app itself generated</strong>, uploaded to the creator's drafts (scope <code>video.upload</code>).</li>
+  </ul>
+
+  <h2>What the app does not do</h2>
+  <ul>
+    <li>It does not collect data about any other TikTok user or viewer.</li>
+    <li>It does not download, copy or re-upload other people's videos.</li>
+    <li>It does not publish posts publicly, comment, like, follow or message anyone.</li>
+    <li>It does not sell, rent or share data with anyone, and it contains no advertising or tracking.</li>
+  </ul>
+
+  <h2>Where data is stored</h2>
+  <p>Tokens are stored in a local file on the creator's computer, readable only by that user account. Statistics are kept in a local history file on the same computer. Nothing is sent to any server other than TikTok's official API.</p>
+
+  <h2>How long data is kept</h2>
+  <p>Tokens are kept until they expire or the creator disconnects the app. The local history is kept as long as the creator keeps it and can be deleted at any time.</p>
+
+  <h2>Disconnecting and deleting data</h2>
+  <p>The creator can revoke access at any time in the TikTok app under Settings and privacy, Security and permissions, Apps and services permissions, and can delete the local token and history files. After revocation the app can no longer access the account.</p>
+
+  <h2>Children</h2>
+  <p>The videos are family-friendly animations. The app does not collect any information from children or from any viewer.</p>
+
+  <h2>Changes and contact</h2>
+  <p>If this policy changes, the effective date above will be updated. Questions can be sent to the creator through the TikTok account that publishes the Léo videos.</p>
+
+  <p class="fr" lang="fr">En bref : Leo Studio est un outil personnel. Il n'utilise que le compte TikTok de son créateur, garde ses jetons de connexion sur l'ordinateur du créateur, ne collecte aucune donnée sur d'autres personnes et ne publie rien publiquement.</p>
+</div></main>
+</body></html>
